@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StepStyle - Toko Sepatu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">👟 StepStyle</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Temukan Sepatu Impian Anda</h1>
+            <p class="lead mb-4">Koleksi sepatu berkualitas dengan harga terjangkau</p>
+            <a href="#products" class="btn btn-custom btn-lg">Belanja Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Koleksi Produk Kami</h2>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-icon">👟</div>
+                        <h5>Sneaker Casual</h5>
+                        <p class="text-muted">Nyaman untuk sehari-hari</p>
+                        <p class="product-price">Rp 549.000</p>
+                        <button class="btn btn-custom w-100">Tambah Keranjang</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-icon">🏃</div>
+                        <h5>Running Sport</h5>
+                        <p class="text-muted">Untuk aktivitas olahraga</p>
+                        <p class="product-price">Rp 799.000</p>
+                        <button class="btn btn-custom w-100">Tambah Keranjang</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-icon">👞</div>
+                        <h5>Formal Classic</h5>
+                        <p class="text-muted">Untuk acara formal</p>
+                        <p class="product-price">Rp 699.000</p>
+                        <button class="btn btn-custom w-100">Tambah Keranjang</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-icon">🥾</div>
+                        <h5>Boot Adventure</h5>
+                        <p class="text-muted">Untuk petualangan outdoor</p>
+                        <p class="product-price">Rp 899.000</p>
+                        <button class="btn btn-custom w-100">Tambah Keranjang</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-icon">👡</div>
+                        <h5>Sandal Comfort</h5>
+                        <p class="text-muted">Santai dan nyaman</p>
+                        <p class="product-price">Rp 199.000</p>
+                        <button class="btn btn-custom w-100">Tambah Keranjang</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <div class="product-icon">👠</div>
+                        <h5>Women Sneaker</h5>
+                        <p class="text-muted">Stylish untuk wanita</p>
+                        <p class="product-price">Rp 649.000</p>
+                        <button class="btn btn-custom w-100">Tambah Keranjang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & FAQ Section -->
+    <section class="location-faq py-5">
+        <div class="container">
+            <h2 class="section-title mb-5">Lokasi & Tanya Jawab</h2>
+
+            <div class="row g-4">
+                <!-- Map Section -->
+                <div class="col-lg-6">
+                    <div class="map-container">
+                        <iframe
+                            src="https://maps.google.com/maps?q=-2.7042721,111.6358368&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                            width="100%" height="400" style="border:0; border-radius: 8px;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <div class="col-lg-6">
+                    <div class="accordion accordion-custom" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                    Berapa ongkir ke luar kota?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ongkir tergantung lokasi tujuan. Gratis ongkir untuk pembelian minimal Rp 500.000 ke
+                                    seluruh Indonesia. Untuk pembelian di bawah itu, ongkir dihitung per meter jarak.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                    Berapa lama pengiriman?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Waktu pengiriman tergantung lokasi. Untuk area Pangkalan Bun bisa beberapa jam atau
+                                    bisa 1-2 hari kerja. Untuk luar kota 3-7 hari kerja tergantung jarak dan kurir yang
+                                    digunakan.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                    Apakah bisa tukar dengan ukuran lain?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ya, bisa! Anda memiliki 30 hari untuk menukar dengan ukuran atau model lain asalkan
+                                    produk masih dalam kondisi original dan belum dipakai.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                    Apakah produk original?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    100% original! Semua produk kami adalah produk resmi dari brand ternama. Jika ada
+                                    kecurigaan, kami siap memberikan uang kembali 100%.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                                    Metode pembayaran apa saja yang tersedia?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Kami terima berbagai metode pembayaran: Transfer bank, e-wallet (QRIS, Dana, OVO),
+                                    dan COD (Bayar di Tempat) untuk area tertentu.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" id="contact">
+        <div class="container text-center">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <p class="mb-3">📞 082328681430</p>
+            <p class="mb-3">📧 info@uwais.com</p>
+            <p>📍 Jl. Pasir panjang, Pangkalan Bun</p>
+        </div>
+
+
+    <footer>
+        <p>&copy; 20246Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

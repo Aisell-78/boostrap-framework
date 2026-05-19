@@ -1,0 +1,126 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #FF6B6B, #4ECDC4) !important;
+}
+
+.hero {
+    background: linear-gradient(90deg, #FF6B6B, #4ECDC4);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.products {
+    padding: 60px 0;
+    background: #f8f9fa;
+}
+
+.product-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.product-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.product-price {
+    font-size: 1.3rem;
+    color: #FF6B6B;
+    font-weight: bold;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: #2C3E50;
+}
+
+.btn-custom {
+    background: #FF6B6B;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background: #E74C3C;
+    color: white;
+    transform: translateY(-2px);
+}
+
+footer {
+    background: #2C3E50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Location & FAQ Section */
+.location-faq {
+    background: white;
+}
+
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.accordion-custom {
+    border-top: 1px solid #dee2e6;
+}
+
+.accordion-custom .accordion-item {
+    border-bottom: 1px solid #dee2e6;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.accordion-custom .accordion-button {
+    background: white;
+    color: #2C3E50;
+    font-weight: 600;
+    padding: 1rem 1.25rem;
+}
+
+.accordion-custom .accordion-button:not(.collapsed) {
+    background: #f0f0f0;
+    color: #FF6B6B;
+}
+
+.accordion-custom .accordion-button:focus {
+    border-color: #FF6B6B;
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 107, 0.25);
+}
+
+.accordion-custom .accordion-body {
+    padding: 1rem 1.25rem;
+    color: #555;
+    line-height: 1.6;
+}
